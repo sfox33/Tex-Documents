@@ -1,0 +1,81 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a style sheet for the LaTeX %
+% documents in this project. You      %
+% won't need to edit this.            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{amsmath,amsfonts, amsthm}
+%\usepackage{yfonts}
+%\usepackage{amsrefs}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[margin=1in]{geometry}
+\usepackage{array}
+\usepackage{esint}
+\usepackage{harpoon}
+\usepackage{stmaryrd}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{pgf,tikz}
+\usetikzlibrary{arrows}
+
+
+\usepackage{enumerate}
+
+
+\usepackage{makeidx}
+\makeindex
+
+\definecolor{AuburnOrange}{RGB}{221,85,12}
+\definecolor{AuburnBlue}{RGB}{3,36,77}
+\definecolor{AuburnSecondaryBlue}{RGB}{73,110,156}
+\definecolor{AuburnSecondaryOrange}{RGB}{246,128,38}
+\definecolor{AlabamaCrimson}{RGB}{163,38,65}
+\definecolor{LSUpurple}{RGB}{70,29,124}
+\definecolor{VanderbiltGold}{RGB}{207,181,59}
+
+\usepackage[pdfpagelabels]{hyperref}
+\hypersetup{colorlinks=true,linkcolor=AuburnSecondaryOrange}
+
+% \usepackage[tracking]{microtype}
+% \UseMicrotypeSet{all}
+% \SetTracking[spacing = {35*,0*,0*}]{encoding = *}{7}
+% \linespread{1.025}
+
+% \def\scaleint#1{\vcenter{\hbox{\scaleto[3ex]{\displaystyle\int}{#1}}}}
+% \def\bs{\!\!}
+
+\renewcommand{\arraystretch}{1.5}
+
+\newcommand{\<}{\langle}
+\renewcommand{\>}{\rangle}
+
+
+\theoremstyle{definition}
+\newtheorem*{theorem}{Theorem}
+\newtheorem*{lemma}{Lemma}
+\newtheorem*{definition}{Definition}
+\newtheorem*{proposition}{Proposition}
+\newtheorem*{recall}{Recall}
+\newtheorem*{remark}{Remark}
+\newtheorem*{observation}{Observation}
+\newtheorem*{problem}{Problem}
+\newtheorem*{example}{Example}
+\newtheorem*{exercise}{Exercise}
+\newtheorem*{note}{Note}
+\newtheorem*{corollary}{Corollary}
+\newtheorem*{preface}{Preface}
+\newtheorem*{properties}{Properties}
+
+\newcommand{\vect}{\mathbf}
+\newcommand{\interior}{\operatorname{int}}
+\newcommand{\closure}{\operatorname{cl}}
+\newcommand{\boundary}{\operatorname{bd}}
+\newcommand{\exterior}{\operatorname{ext}}
+
+\parskip=0.5em
+
+\newcommand{\mb}{\mathbb}
+
+\newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
